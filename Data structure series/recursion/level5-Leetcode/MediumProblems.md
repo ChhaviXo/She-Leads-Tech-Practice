@@ -1,12 +1,12 @@
 # Medium Recursion and Backtracking
 
-These extend the seven questions in [Problems.md](./Problems.md). Solve both with recursive backtracking; explain the base case, choices, undo step, and time and space costs.
+These extend the exercises in levels 1–4. Solve both with recursive backtracking; explain the base case, choices, undo step, and time and space costs.
 
 Both appear in a [community compilation of Amazon SDE1 interview questions](https://leetcode.com/discuss/post/488887/rqq1489223579764.html). This is community-reported interview history, not an official Amazon question bank or a guarantee of current questions. Problem details are paraphrased from the linked LeetCode statements.
 
-## 8. Combination Sum — LeetCode #39 (Medium)
+## 1. Combination Sum — LeetCode #39 (Medium)
 
-[LeetCode](https://leetcode.com/problems/combination-sum/) · [TypeScript starter](./combinationSum.ts)
+[LeetCode](https://leetcode.com/problems/combination-sum/) · [TypeScript starter](./1-combinationSum.ts)
 
 Given distinct positive candidate values and a target, find every unique combination whose sum equals the target. A value may be reused any number of times. Different orderings of the same values count as one combination; return the combinations in any order.
 
@@ -22,9 +22,9 @@ Constraints: 1–30 candidates; each value is 2–40; target is 1–40. Inputs h
 
 Practice checks: prevent duplicate combinations and store independent copies of each completed path. If you sort candidates for pruning, sort a copy to preserve the caller's array.
 
-## 9. Permutations — LeetCode #46 (Medium)
+## 2. Permutations — LeetCode #46 (Medium)
 
-[LeetCode](https://leetcode.com/problems/permutations/) · [TypeScript starter](./permute.ts)
+[LeetCode](https://leetcode.com/problems/permutations/) · [TypeScript starter](./2-permute.ts)
 
 Given distinct integers, produce every ordering using each input element exactly once. Return the orderings in any order.
 
